@@ -1,7 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head></head>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <title>Challenge ONE Magucho </title> 
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet"  href="Style.css">
+        <link rel="icon" href="barber/logomobula.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" 
+        rel="stylesheet"> 
+        <link rel="icon" href="imagenes/logo2.jpeg"> 
+    </head>
+
     <body>
-        <h1>Hola perras</h1>
+
+        <div class="cuerpo">
+
+            
+                <div class="logo">
+                    <p style="color: #0A3871; " class="letra">a</p>
+                </div>
+                
+                <div class="texto">
+
+                    <div>
+                        <textarea class="T-area" id="area1" cols="30" rows="10"
+                        placeholder="Ingrese el texto aqui"></textarea>
+                    </div>
+                        
+                    <div class="enunciadoT">
+                        <p class="condicion">&#x1f5e3Letras minúsculas y sin acento</p>   
+                    </div>
+
+                    <div class="a-botones">
+                        <input type="submit" value="Encriptar" class="boton1" onclick="encriptar()" id="codifica"/>
+                        <input type="submit" value="Desencriptar" class="boton2" onclick="desencriptar()" id="descodifica"/>
+                    </div>
+                </div>
+
+                <div class="texto2">
+                     
+                    <img src="imagenes/dibujoP.png" alt="" id="ima-inicio"/>  
+                    <div class="mensaje-encriptado" id="mensaje-encriptado">
+                        <h2 id="titulo-mensaje">Ningún mensaje  fué encontrado</h2>
+                        <p id="parrafo" class="parrafo">
+                            Ingrese el mensaje texto que deseas encriptar o desencriptar
+                        </p>
+                        <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea> -->
+                    </div>
+                    
+                </div>
+        </div>
+        
     </body>
+
+    <script src="index2.js"></script>
 </html>

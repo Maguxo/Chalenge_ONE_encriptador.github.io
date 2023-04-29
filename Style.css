@@ -1,0 +1,279 @@
+.cuerpo::-webkit-scrollbar{
+width: 15px;
+}
+.cuerpo::-webkit-scrollbar-thumb{
+    background: rgb(90, 105,133);
+    border-radius: 50px;
+}
+.cuerpo::-webkit-scrollbar-thumb:hover{
+    background: rgb(99, 148, 238);
+    
+}
+
+.cuerpo{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background:#E5E5E5;
+}
+
+.logo{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
+ gap: 40px;
+ 
+ position: absolute;
+ width: 120px;
+ height: 48px;
+ left: 40px;
+ top: 40px;
+
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+}
+
+.letra {    
+    width: 31.09px;
+    height: 48px;
+    left: 48px;
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+   font-size: 88px;
+   font-family: 'Arial Narrow';
+}
+
+.T-area{
+ position: absolute;
+ width: 42%;
+ height: 60%;
+ left: 12%;
+ top: 15%;
+border: none ;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+background-color: #E5E5E5;
+}
+.T-area::placeholder{
+    color: #0A3871;
+}
+
+.T-area:focus, 
+.T-area:active{
+border: none;
+outline: none;
+}
+textarea:focus{
+    outline-style: none;
+
+}
+
+.enunciadoT {
+     position: absolute;
+     width: 80%;
+     left: 12%;
+     top: 80%;
+     align-items: center;
+     display: flex;
+     padding: 0px;
+     gap: 8px;
+     flex-direction: row;     
+}
+
+.enunciadoT, .condicion {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.a-botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    gap: 24px;
+
+    position: absolute;
+    width: 80%;
+    left: 12%;
+    top: 82%;
+}
+
+.boton1{    
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    transition: 1s all;
+}
+
+.boton2{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    background: #FFFFFFFF;
+    border-radius: 24px;
+
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    transition: 3s all;
+}
+.boton1:hover{
+    color: #0A3871;
+    background: #FFFFFFFF;
+    border: 1px solid #0A3871;
+
+}
+.boton2:hover {
+    color: #FFFFFFFF;
+    background: #0A3871;
+    border: 1px solid #FFFF FFFF;
+}
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    left: 60%;
+    top: 5%;
+    background: #FFFFFFFF;
+    border-radius: 52px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.mensaje-encriptado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1% ;
+    gap: 16px;
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    text-align: center ;
+}
+
+.mensaje-encriptado h2 {
+    width: 60%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+.mensaje-encriptado, .parrafo {
+    width: 80%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+     text-align: center;
+     color: #495057;
+
+}
+
+.texto2 img {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 15%;
+}
+
+@media (max-width: 57.5em){
+    .cuerpo{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .texto{
+        width: 100%;       
+    }
+    .T-area{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+    .enunciadoT{
+        width: 80%;
+        left: 10%;
+        top: 67%;
+    }
+    .condicion{
+        font-size: 16px;
+    }
+    .a-botones{
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+     .boton1, .boton2{
+        width: 48%;
+        border: 16px;
+     } 
+     .boton1:hover, .boton2:hover{
+        margin: 0.3%;
+        width: 47.5%;
+        padding: 1.8%;
+     }
+
+     .texto2{
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;
+     }
+     .mensaje-encriptado{
+        width: 100%;
+        top: 5%;
+     }
+
+     .texto2 img{
+        top: 0;
+        display: none;
+        visibility: hidden;
+     }
+}
