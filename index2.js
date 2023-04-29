@@ -47,7 +47,7 @@ function desencriptar(){
                                 bloque.textContent= "";
                                 vistiBueno.src = "./imagenes/ok.gif"
                             }else{
-                                vistiBueno.src = "./imagenes/what.gif";
+                                vistiBueno.src = "./imagenes/desencriptar.gif";
                                 bloque.textContent= "";
                                 anuncio.textContent = "No se desencriptó ningun texto";
                                 alert("Debes ingresar algun texto");
