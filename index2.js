@@ -21,7 +21,7 @@ function encriptar(){
                         vistiBueno.src = "./imagenes/what.gif";
                         bloque.textContent= "";
                         anuncio.textContent = "No se encriptó ningun texto";
-                        alert("Debes ingresar algun texto");
+                        swal("¡OJO!","Debes ingresar un texto","warning");
                      }
                      
 }
@@ -50,8 +50,7 @@ function desencriptar(){
                                 vistiBueno.src = "./imagenes/desencriptar.gif";
                                 bloque.textContent= "";
                                 anuncio.textContent = "No se desencriptó ningun texto";
-                                alert("Debes ingresar algun texto");
-
+                                swal("¡OJO!","Debes ingresar un texto","warning");
                             }
 
 }
