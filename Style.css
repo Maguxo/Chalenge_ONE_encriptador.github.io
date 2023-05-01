@@ -1,4 +1,3 @@
-@import url("https://https://fonts.google.com/specimen/Fredoka+One?query=fredoka#glyphs");
 .cuerpo::-webkit-scrollbar{
 width: 15px;
 }
@@ -46,7 +45,6 @@ width: 15px;
    font-size: 88px;
    font-family: 'Arial Narrow';
    color: #0b76fa;
-   text-shadow: 15px red  15px red  15 px red;
    animation: parpadear 3s infinite backwards;
    
 }
