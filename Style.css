@@ -1,3 +1,4 @@
+@import url("https://https://fonts.google.com/specimen/Fredoka+One?query=fredoka#glyphs");
 .cuerpo::-webkit-scrollbar{
 width: 15px;
 }
@@ -23,13 +24,11 @@ width: 15px;
  align-items: flex-start;
  padding: 0px;
  gap: 40px;
- 
  position: absolute;
- width: 120px;
- height: 48px;
- left: 40px;
- top: 40px;
-
+ width: 10%;
+ height: 10%;
+ left: 1%;
+ top: 4%;
  flex: none;
  order: 0;
  flex-grow: 0;
@@ -42,12 +41,23 @@ width: 15px;
     position: absolute;
     left: 36.67%;
     right: 37.43%;
-    top: 0%;
+    top: -11%;
     bottom: 0%;
    font-size: 88px;
    font-family: 'Arial Narrow';
+   color: #0b76fa;
+   text-shadow: 15px red  15px red  15 px red;
+   animation: parpadear 3s infinite backwards;
+   
 }
 
+@keyframes parpadear {
+    to {
+        color: #9d9fa1;
+        text-shadow: none;
+        transition: 2s all;
+    }   
+}
 .T-area{
  position: absolute;
  width: 42%;
