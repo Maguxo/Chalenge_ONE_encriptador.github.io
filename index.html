@@ -46,10 +46,13 @@
                     <img src="imagenes/dibujoP.png" alt="" id="ima-inicio"/>  
                     <div class="mensaje-encriptado" id="mensaje-encriptado">
                         <h2 id="titulo-mensaje">Ningún mensaje  fué encontrado</h2>
-                        <p id="parrafo" class="parrafo">
-                            Ingrese el mensaje texto que deseas encriptar o desencriptar
-                        </p>
-                        <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea> -->
+            
+                        <textarea name="mensaje" id="mensajeC" cols="30" rows="6" class="mensajeCopia"
+                        placeholder="Ingrese el mensaje texto que deseas encriptar o desencriptar"></textarea>
+                     
+                        <div class="b-copiar">
+                            <input type="submit" value="Copiar" class="b-copia" onclick="copia()">  
+                        </div>
                     </div>
                     
                 </div>
