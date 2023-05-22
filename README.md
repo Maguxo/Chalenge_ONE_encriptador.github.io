@@ -11,6 +11,3 @@
  dfbfdbdfbdfbdfbdf 
 dfbdfbfdbdfbdfb
 dhdfdfgdfgdfgd
-rthrtrthrttyjryjrtjrtcfgndgngngnfgnfgn.kjbñkjb.k
-khvkvñhvñivñivilviñlk
-dfbsfbfbfdbdfbthghdfgnfgngfgfg
