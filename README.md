@@ -36,13 +36,12 @@
   
   ---
   
-  <div>
-    <h3>Encriptador🤙 </h3>
-     <a href="https://magucho.github.io/Chalenge_ONE_encriptador.github.io/">
-     <img src="https://github.com/Magucho/Chalenge_ONE_encriptador.github.io/assets/98346054/5a29cf9f-b4c7-428a-8835-4ff41eb11100" alt="encriptador" width=800/>
-     </a>
-     
+  <div>  
+    <h3>Encriptador🤙</h3>
+    <a href="https://magucho.github.io/Chalenge_ONE_encriptador.github.io/">Oprima aquí para ver página</a><br>  
+    <img src="https://github.com/Magucho/Chalenge_ONE_encriptador.github.io/assets/98346054/5a29cf9f-b4c7-428a-8835-4ff41eb11100" alt="encriptador" width=800/>
   </div>
+ 
 </body>
 </html>
 
